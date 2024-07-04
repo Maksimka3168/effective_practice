@@ -1,0 +1,44 @@
+.headerWrapper {
+  width: 100%;
+  background: red;
+}
+.headerBlock {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 16px;
+  width: 18%;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.isActive {
+  text-decoration-line: underline;
+  text-decoration-thickness: 7px;
+  font-weight: 800;
+  text-underline-offset: 11px;
+  text-decoration-color: rgb(255, 242, 0);
+}
+.headerLogo {
+  color: white;
+  font-weight: 800;
+  font-size: 32px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  cursor: default;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

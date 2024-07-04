@@ -1,0 +1,44 @@
+.characterPage {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 32px;
+}
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.characterImg {
+  width: 100%;
+}
+.leftBar {
+  width: 40%;
+}
+.rightBar {
+  width: 40%;
+}
+.characterInfo {
+  width: 100%;
+}
+.characterDescription {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.characterPower {
+  font-size: 16px;
+}
+.comicsList {
+  text-align: left;
+}
+.comicsItem {
+  font-weight: 500;
+  font-size: 16px;
+}
+.comicsItem:hover {
+  text-decoration: underline;
+}
